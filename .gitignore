@@ -1,0 +1,141 @@
+# ==========================================
+# Git Ignore for Adaptive Learning Platform
+# ==========================================
+
+# --- Environments & Secrets (CRITICAL) ---
+# Never commit real credentials or local environment configurations
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env.local
+*.env
+*.env.local
+
+# Preserve example/template files
+!.env.example
+!*.env.example
+!frontend/.env.example
+
+# --- Python & Backend ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+backend/.venv/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Static Type Checkers & Linters
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Pip logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Node.js & Next.js Frontend ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Next.js build outputs & caches
+.next/
+frontend/.next/
+out/
+build/
+dist/
+
+# TypeScript compiler cache
+*.tsbuildinfo
+frontend/tsconfig.tsbuildinfo
+
+# Next.js dev server auto-generated agent notes
+frontend/AGENTS.md
+frontend/CLAUDE.md
+
+# --- Databases & Local Storage ---
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+*.sqlite
+*.sqlite3
+learning.db
+backend/learning.db
+audit-migration.db*
+learning_data/
+
+# --- Local Artifacts & Diagnostics ---
+artifacts/
+
+# --- Operating System Files ---
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# --- IDEs & Code Editors ---
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# VS Code (ignore user workspace settings, preserve shared config templates if any)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

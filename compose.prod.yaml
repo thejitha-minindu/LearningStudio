@@ -1,0 +1,12 @@
+services:
+  api:
+    restart: unless-stopped
+
+  worker:
+    restart: unless-stopped
+
+  web:
+    restart: unless-stopped
+
+  migrate:
+    restart: "no"

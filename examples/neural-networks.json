@@ -1,0 +1,13 @@
+{
+  "task_id": "neural-demo-001",
+  "learner_id": "demo-learner",
+  "long_term_goal": "Build useful machine learning applications",
+  "objective": "Learn neural networks with a simple forward pass and training intuition in Python",
+  "purpose": "long_term",
+  "deadline": null,
+  "total_minutes": 60,
+  "session_minutes": 25,
+  "prior_knowledge": [{"topic": "Python basics", "state": "developing", "evidence_type": "self_report", "evidence": "I can use lists, loops and functions; this has not been assessed by this module."}],
+  "resources": [],
+  "preferences": {"language": "English", "depth": "balanced"}
+}

@@ -1,0 +1,42 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 591 >>
+stream
+BT /F1 11 Tf 50 780 Td 16 TL
+(AUTHORED FIXTURE LECTURE 2: SQL JOINS) Tj
+T* (An INNER JOIN returns matching row combinations.) Tj
+T* (A LEFT JOIN also preserves unmatched rows from its left table.) Tj
+T* (Unmatched right-side columns contain NULL in those rows.) Tj
+T* (Ada has enrollments DB and AI; Lin has no enrollment.) Tj
+T* (A left join from Student to Enrollment returns three rows:) Tj
+T* (\(Ada, DB\), \(Ada, AI\), and \(Lin, NULL\).) Tj
+T* (A WHERE filter requiring e.course_id = DB can remove Lin.) Tj
+T* (Normalization is outside this lecture and requires another source.) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+952
+%%EOF

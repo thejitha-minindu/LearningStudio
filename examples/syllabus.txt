@@ -1,0 +1,12 @@
+AUTHORED DEMONSTRATION SYLLABUS — not an actual university exam specification
+
+Database course scope:
+1. Relational tables, primary keys, foreign keys and composite keys.
+2. SQL INNER JOIN and LEFT JOIN, matching rows and null-extended rows.
+3. Functional dependencies, normalization, update anomalies and lossless decomposition.
+
+Learning outcomes: explain the constraints represented by keys; predict query results
+on small tables; reason about dependencies and justify simple decompositions.
+
+No topic weighting, past-paper distribution, or exam-question predictions are supplied.
+The two sample lecture PDFs cover only keys and joins; normalization needs supplementary evidence.

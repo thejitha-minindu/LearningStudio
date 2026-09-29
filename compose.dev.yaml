@@ -1,0 +1,34 @@
+services:
+  migrate:
+    volumes:
+      - ./backend:/app
+
+  api:
+    volumes:
+      - ./backend:/app
+    command:
+      [
+        "uvicorn",
+        "app.main:app",
+        "--host",
+        "0.0.0.0",
+        "--port",
+        "8000",
+        "--reload"
+      ]
+
+  worker:
+    volumes:
+      - ./backend:/app
+
+  web:
+    user: root
+    environment:
+      WATCHPACK_POLLING: "true"
+      CHOKIDAR_USEPOLLING: "1"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      - /app/.next
+    command: ["npm", "run", "dev", "--", "--hostname", "0.0.0.0"]
+

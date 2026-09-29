@@ -1,0 +1,17 @@
+{
+  "task_id": "database-exam-001",
+  "learner_id": "demo-learner",
+  "long_term_goal": "Pass my relational database course",
+  "objective": "Prepare for a database exam on relations, keys, joins and normalization",
+  "purpose": "exam",
+  "deadline": null,
+  "total_minutes": 60,
+  "session_minutes": 20,
+  "prior_knowledge": [],
+  "resources": [
+    {"kind": "file", "value": "REPLACE_WITH_SYLLABUS_FILE_ID", "role": "syllabus"},
+    {"kind": "file", "value": "REPLACE_WITH_LECTURE_1_FILE_ID", "role": "lecture"},
+    {"kind": "file", "value": "REPLACE_WITH_LECTURE_2_FILE_ID", "role": "lecture"}
+  ],
+  "preferences": {"language": "English", "depth": "balanced"}
+}
